@@ -1,0 +1,10 @@
+Table,Colonne,Type,Nullable,Index
+user,mail,varchar,Non,Unique
+user,password,varchar,Non,
+task,title,varchar,Non,Unique
+task,deadline,date,Oui,
+task,status,set,Non,
+task,user_id,int,Non,
+task,deletion_date,date,Oui, 
+tag,name,varchar,Non,Unique
+tag,description,text,Non,
